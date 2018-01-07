@@ -49,14 +49,14 @@ The following files are available for the train and test data. Their description
 # Tidy Data
 The final dataset for this project consists of 1 file - “tidydata.txt”.
 
-## Dimensinos
-There are 180 rows and 68 columns.
+## Dimensions
+There are 180 rows and 68 columns in the tidy dataset.
 
 ## Description
 Each row represents 1 Subject and 1 Activity. The raw data included multiple measurement observations for each Subject and Activity, so these were averaged together for the final tidy dataset.
 
 ## Identifiers
-2 columns in the dataset serve as Identifiers:
+2 columns in the tidy dataset serve as Identifiers:
 
 * SubjectID - The ID for the subject participating in the experiment
     + Ranges from 1 to 30
@@ -69,7 +69,7 @@ Each row represents 1 Subject and 1 Activity. The raw data included multiple mea
     + LAYING
 
 ## Measurements
-The remaining columns are measurements taken by the smartphone for each Subject and Activity.
+The remaining columns are measurements taken by the smartphone for each Subject and Activity. As mentioned above, these represent the average measurement for each Subject for each Activity. 
 
 * TimeBodyAccelerometerMeanX
 * TimeBodyAccelerometerMeanY
